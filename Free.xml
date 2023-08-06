@@ -774,109 +774,6 @@ h5.services-heading:after {
 }
 
 
-/* ============== COUNTER ==============  */
-.counter-item h3 {
-	margin: 20px auto;
-	color: #eee;
-}
-.counter-item span {
-	font-size: 40px;
-}
-.counter-item p {
-	color: #eee;
-}
-
-/* ============== TEAM ==============  */
-#skills {
-	margin-top: 20px;
-}
-.skillbar {
-	position: relative;
-	display: block;
-	margin: 0 auto 20px;
-	width: 100%;
-	height: 40px;
-	-webkit-transition: 0.4s linear;
-	transition: 0.4s linear;
-	-webkit-transition-property: width, background-color;
-	transition-property: width, background-color;
-}
-.skillbar-title {
-	font-size: 12px;
-	color: #555;
-	margin-bottom: 5px;
-	text-transform: uppercase;
-}
-.skillbar-title span {} .skillbar-bar {
-	height: 2px;
-	width: 0px;
-	background: #000;
-	border-radius: 3px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	float: left;
-}
-.team-item {
-	position: relative;
-}
-.team-item .info {
-	padding-top: 0%;
-	text-align: center;
-	color: #fff;
-	position: absolute;
-	top: 0;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	background: rgba(0, 0, 0, .5);
-	opacity: 0;
-	-webkit-transition: all .8s;
-	transition: all .8s;
-}
-.team-item .info h5 {
-	font-size: 12px;
-	text-transform: uppercase;
-	margin-bottom: 50px;
-	color: #bfa67a;
-	-webkit-transition: all .5s;
-	transition: all .5s;
-}
-.team-item:hover .info h5 {
-	margin-bottom: 10px;
-}
-.team-item .info h6 {
-	font-size: 16px;
-	margin-bottom: 0px;
-	color: #eee;
-	-webkit-transition: all .2s;
-	transition: all .2s;
-}
-.team-item:hover .info h6 {
-	margin-bottom: 10px;
-}
-.team-item:hover .info {
-	padding-top: 40%;
-}
-.team-item .social-icon {
-	color: #fff;
-	text-align: center;
-	opacity: 0;
-	-webkit-transition: all .5s;
-	transition: all .5s;
-}
-.team-item .social-icon span {
-	margin: 10px;
-	-webkit-transition: all .7s;
-	transition: all .7s;
-	color: #eee;
-}
-.team-item:hover .info {
-	opacity: 1;
-}
-.team-item:hover .social-icon {
-	opacity: 1;
-}
-
 
 /* ============== PRICING ==============  */
 .price-item {
@@ -2723,7 +2620,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;bo
     }
 }
 /* ----------------------------------------------------------------
-     [ End Loadmore Loader ]
+     [ End Loadmore Loader ]adilawcoy
 -----------------------------------------------------------------*/
 ]]></b:skin>
 
@@ -4261,157 +4158,38 @@ div#contact {
                 <div CLASS="col-sm-4 col-sm-offset-2">
                     <div CLASS="about-box">
                         <div CLASS="box-overlay"></div>
-						<!-- About Video URL -->
-                        <a CLASS="videopopup" HREF="https://www.youtube.com/watch?v=aJOTlE1K90k">
+						
 						<!-- About Video Thumbnail -->
-                            <img SRC="https://lh3.googleusercontent.com/-ZsRokAyJhqA/XAARW0HjdUI/AAAAAAAAA5w/7lURAInvpdkOaYMe2FbsJDFzmKhNrryCgCLcBGAs/s1600/about.jpg" ALT=""/>
-                            <div CLASS="sonar-wrapper">
-                                <div CLASS="sonar-emitter">
-                                    <i CLASS="ion-arrow-right-b"></i>
-                                    <div CLASS="sonar-wave"></div>
-                              </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                           
 
     <!--====== Services ======-->
-    <section id="services" class="section-padding services-section">
-        <div CLASS="container">
-            <div CLASS="row">
-                <div CLASS="col-sm-12">
-                    <div CLASS="section_title">
-                        <div CLASS="section_subtitle">Services</div>
-                        <h2 CLASS="section_main_title">What We<strong> Do?</strong></h2>
-                    </div>
-                    <div CLASS="hgt-40"></div>
-                </div>
-            </div>
-            <div CLASS="row">
+    
 			<!-- SERVICES -->
-                <div CLASS="col-sm-4">
-                    <div CLASS="services-item pad-bootom-100">
+                
+                  
 					<!-- Service Icon -->
-                        <span CLASS="ion-ios-monitor-outline"></span>
-                        <div CLASS="services-single-item">
+                        
+              
 						<!-- Service Heading -->
-                            <h5 CLASS="services-heading">WEB DESIGN</h5>
+                            
 							<!-- Service Description -->
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus aliquam asperiores modi. Labore, quisquam.</p>
-                        </div>
-                    </div>
-                </div>
-                <div CLASS="col-sm-4">
-                    <div CLASS="services-item pad-bootom-100">
-                        <span CLASS="ion-ios-crop"></span>
-                        <div CLASS="services-single-item">
-                            <h5 CLASS="services-heading">GRAPHSIC DESIGN</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus aliquam asperiores modi. Labore, quisquam.</p>
-                        </div>
-                    </div>
-                </div>
+                            
+		
+			
 
-                <div CLASS="col-sm-4">
-                    <div CLASS="services-item pad-bootom-100">
-                        <span CLASS="ion-ios-camera-outline"></span>
-                        <div CLASS="services-single-item">
-                            <h5 CLASS="services-heading">PHOTOGRAPHY</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus aliquam asperiores modi. Labore, quisquam.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div CLASS="col-sm-4">
-                    <div CLASS="services-item pad-bootom-100">
-                        <span CLASS="ion-social-buffer-outline"></span>
-                        <div CLASS="services-single-item">
-                            <h5 CLASS="services-heading">CLEAN CODE</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus aliquam asperiores modi. Labore, quisquam.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div CLASS="col-sm-4">
-                    <div CLASS="services-item pad-bootom-100">
-                        <span CLASS="ion-ios-flask-outline"></span>
-                        <div CLASS="services-single-item">
-                            <h5 CLASS="services-heading">PROGRESS AND ACCORDIANS</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus aliquam asperiores modi. Labore, quisquam.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div CLASS="col-sm-4">
-                    <div CLASS="services-item pad-bootom-100">
-                        <span CLASS="ion-ios-time-outline"></span>
-                        <div CLASS="services-single-item">
-                            <h5 CLASS="services-heading">24/7 Support</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus aliquam asperiores modi. Labore, quisquam.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-	
+        	
     <!--====== Happy Clints ======-->
-    <section class="section-padding-small dark-bg">
-        <div CLASS="container">
-            <div CLASS="row text-center">
+    
 			<!-- COUNTER -->
-                <div CLASS="col-sm-3">
-                    <div CLASS="counter-item">
-                        <span CLASS="ion-android-happy"></span>
-                        <h3 CLASS="counter">1254</h3>
+               
 						<!-- Counter Heading -->
-                        <p>HAPPY CLIENTS</p>
-                    </div>
-                </div>
-
-                <div CLASS="col-sm-3">
-                    <div CLASS="counter-item">
-                        <span CLASS="ion-android-checkbox-outline"></span>
-                        <h3 CLASS="counter">1424</h3>
-                        <p>COMPLETE PROJECT</p>
-                    </div>
-                </div>
-
-                <div CLASS="col-sm-3">
-                    <div CLASS="counter-item">
-                        <span CLASS="ion-coffee"></span>
-                        <h3 CLASS="counter">2136</h3>
-                        <p>CUP OF COFFIE</p>
-                    </div>
-                </div>
-
-                <div CLASS="col-sm-3">
-                    <div CLASS="counter-item">
-                        <span CLASS="ion-trophy"></span>
-                        <h3 CLASS="counter">15</h3>
-                        <p>AWARDS</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-	
+                        
     <!--====== Team ======-->
-    <section id="team" class="section-padding skill_area">
-        <div CLASS="container">
-            <div CLASS="row">
+    
 			<!-- TEAM Section -->
-                <div CLASS="col-sm-6">
-                    <div CLASS="section_title">
-                        <div CLASS="section_subtitle">TEAM</div>
+               
 						<!-- Title -->
-                        <h2 CLASS="section_main_title">MEET OUR AWESOME <strong>TEAM</strong></h2>
-                    </div>
-                    <div>
+                        
 					<!-- Description -->
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas volutpat, diam enim sagittis quam, id porta Lorem ipsum dolor sit .Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis. Maecenas volutpat.</p>
                     </div>
@@ -4421,122 +4199,21 @@ div#contact {
                         <div CLASS="skillbar" data-percent="95%">
 						<!-- Skills Title -->
 						<!-- Skills Percentage -->
-                            <div CLASS="skillbar-title">Photography <span CLASS="pull-right skill-bar-percent">95%</span></div>
-                            <div CLASS="skillbar-bar"></div>
-                        </div>
+                
 
-                        <div CLASS="skillbar " data-percent="85%">
-                            <div CLASS="skillbar-title">Videography <span CLASS="pull-right skill-bar-percent">85%</span></div>
-                            <div CLASS="skillbar-bar"></div>
-                        </div>
-                        <div CLASS="skillbar clearfix" data-percent="75%">
-                            <div CLASS="skillbar-title">WEB DESIGN <span CLASS="pull-right skill-bar-percent">75%</span></div>
-                            <div CLASS="skillbar-bar"></div>
-
-                        </div>
-                        <div CLASS="skillbar clearfix" data-percent="60%">
-                            <div CLASS="skillbar-title">Illustrator <span CLASS="pull-right skill-bar-percent">60%</span></div>
-                            <div CLASS="skillbar-bar"></div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div CLASS="hgt-80"></div>
-            <div CLASS="row">
-                <div CLASS="col-sm-3">
-                    <div CLASS="team-item">
-                        <img SRC="https://lh3.googleusercontent.com/-q3FK9PdBGrA/XAARY4dBSBI/AAAAAAAAA6I/RZW1YgX1ggYL1ce30pSucoNeALsX4qXfACLcBGAs/s1600/team1.jpg" ALT="image"/>
-
-                        <div CLASS="info">
 						<!-- Team Member Name -->
-                            <h5 CLASS="ctit">John Doe</h5>
+                           
 							<!-- Team Member Profile -->
-                            <h6>Manager Developer</h6>
-                            <div CLASS="social-icon">
+                           
+                            
 								<!-- Team Member Social Links -->
-                                <a HREF="#0">
-                                    <span CLASS="totop"><i CLASS="ion-social-facebook"></i></span>
-                                </a>
-                                <a HREF="#0">
-                                    <span CLASS="tobotm"><i CLASS="ion-social-twitter"></i></span>
-                                </a>
-                                <a HREF="#0">
-                                    <span CLASS="totop"><i CLASS="ion-social-linkedin"></i></span>
-                                </a>
-                                <a HREF="#0">
-                                    <span CLASS="tobotm"><i CLASS="ion-social-googleplus"></i></span>
-                                </a>
-                                <a HREF="#0">
-                                    <span CLASS="totop"><i CLASS="ion-social-instagram"></i></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div CLASS="col-sm-3">
-                    <div CLASS="team-item">
-                        <img SRC="https://lh3.googleusercontent.com/-9uUhEdmEnew/XAARZFoSMRI/AAAAAAAAA6M/xBnZuwFRl9E7Q2NfHdbG5bHgBmgswIApwCLcBGAs/s1600/team2.jpg" ALT="image"/>
-                        <div CLASS="info">
-                            <h5 CLASS="ctit">John Doe</h5>
-                            <h6>Manager Developer</h6>
-                            <div CLASS="social-icon">
+                                
+                                  
 							<!-- Social Links -->
-                                <a HREF="#0">
-                                    <span CLASS="totop"><i CLASS="ion-social-facebook"></i></span>
-                                </a>
-                                <a HREF="#0">
-                                    <span CLASS="tobotm"><i CLASS="ion-social-twitter"></i></span>
-                                </a>
-                                <a HREF="#0">
-                                    <span CLASS="totop"><i CLASS="ion-social-linkedin"></i></span>
-                                </a>
-                                <a HREF="#0">
-                                    <span CLASS="tobotm"><i CLASS="ion-social-googleplus"></i></span>
-                                </a>
-                                <a HREF="#0">
-                                    <span CLASS="totop"><i CLASS="ion-social-instagram"></i></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div CLASS="col-sm-3">
-                    <div CLASS="team-item">
-                        <img SRC="https://lh3.googleusercontent.com/-_bw0xSAzmao/XAARZvjQQyI/AAAAAAAAA6Q/OMo80iWI-oEMTVixgX7EZxFajvhOF9OGQCLcBGAs/s1600/team3.jpg" ALT="image"/>
-                        <div CLASS="info">
-                            <h5 CLASS="ctit">John Doe</h5>
-                            <h6>UI/ UX Designer</h6>
-                            <div CLASS="social-icon">
+                                
 							<!-- Social Links -->
-                                <a HREF="#0">
-                                    <span CLASS="totop"><i CLASS="ion-social-facebook"></i></span>
-                                </a>
-                                <a HREF="#0">
-                                    <span CLASS="tobotm"><i CLASS="ion-social-twitter"></i></span>
-                                </a>
-                                <a HREF="#0">
-                                    <span CLASS="totop"><i CLASS="ion-social-linkedin"></i></span>
-                                </a>
-                                <a HREF="#0">
-                                    <span CLASS="tobotm"><i CLASS="ion-social-googleplus"></i></span>
-                                </a>
-                                <a HREF="#0">
-                                    <span CLASS="totop"><i CLASS="ion-social-instagram"></i></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                              
 
-                <div CLASS="col-sm-3">
-                    <div CLASS="team-item">
-                        <img SRC="https://lh3.googleusercontent.com/-cNSny5BpYTw/XAARZ1ylf0I/AAAAAAAAA6U/oaTL8b-BWeMAIX2iiaSo0eJDxO3jXydbACLcBGAs/s1600/team4.jpg" ALT="image"/>
-                        <div CLASS="info">
-                            <h5 CLASS="ctit">John Doe</h5>
-                            <h6>php Developer</h6>
-                            <div CLASS="social-icon">
 							<!-- Social Links -->
                                 <a HREF="#0">
                                     <span CLASS="totop"><i CLASS="ion-social-facebook"></i></span>
@@ -4564,93 +4241,16 @@ div#contact {
 	
 	
     <!--====== Pricing ======-->
-    <section id="price" class="section-padding">
-        <div CLASS="container">
-            <div CLASS="row">
-                <div CLASS="col-sm-12">
-                    <div CLASS="section_title">
-                        <div CLASS="section_subtitle">Prices</div>
-                        <h2 CLASS="section_main_title">Choose the perfect <strong> Plan</strong></h2>
-                    </div>
-                    <div CLASS="hgt-10"></div>
-                </div>
-            </div>
-            <div CLASS="row">
+   
 			<!-- PRICING Section -->
-                <div CLASS="col-sm-4">
-                    <div CLASS="price-item">
+                
+               
 					<!-- Price Title -->
-                        <div CLASS="priceing-price">
-                            <h2>19$</h2>
-                            <span>per month</span>
-                        </div>
-                        <div CLASS="pricing_devider">
-                            <span></span>
-                        </div>
+                       
 					<!-- Price Features -->
-                        <ul CLASS="pricing-features ">
-                            <li><span CLASS="ion-android-done-all"></span> <span CLASS="feature_list">10GB Storage</span></li>
-                            <li><span CLASS="ion-android-done-all"></span> <span CLASS="feature_list">10 Emails</span></li>
-                            <li><span CLASS="ion-android-done-all"></span> <span CLASS="feature_list">10 Domains</span></li>
-                            <li><span CLASS="ion-android-done-all"></span> <span CLASS="feature_list">1GB Bandwidth</span></li>
-                            <li><span CLASS="ion-android-done-all"></span> <span CLASS="feature_list">50 SubDomains</span></li>
-                            <li><span CLASS="ion-android-done-all"></span> <span CLASS="feature_list">Email Support</span></li>
-                        </ul>
-                        <div CLASS="pricing-action">
-                            <a CLASS="btn-color-background" HREF="#">Purchase</a>
-                        </div>
-                    </div>
-                </div>
-                <div CLASS="col-sm-4">
-                    <div CLASS="price-item pricing_active">
-                        <div CLASS="priceing-price">
-                            <h2>49$</h2>
-                            <span>per month</span>
-                        </div>
-                        <div CLASS="pricing_devider">
-                            <span></span>
-                        </div>
-
-                        <ul CLASS="pricing-features ">
-                            <li><span CLASS="ion-android-done-all"></span> <span CLASS="feature_list">10GB Storage</span></li>
-                            <li><span CLASS="ion-android-done-all"></span> <span CLASS="feature_list">10 Emails</span></li>
-                            <li><span CLASS="ion-android-done-all"></span> <span CLASS="feature_list">10 Domains</span></li>
-                            <li><span CLASS="ion-android-done-all"></span> <span CLASS="feature_list">1GB Bandwidth</span></li>
-                            <li><span CLASS="ion-android-done-all"></span> <span CLASS="feature_list">50 SubDomains</span></li>
-                            <li><span CLASS="ion-android-done-all"></span> <span CLASS="feature_list">Email Support</span></li>
-                        </ul>
-                        <div CLASS="pricing-action">
-                            <a CLASS="btn-transparent-background" HREF="#">Purchase</a>
-                        </div>
-                    </div>
-                </div>
-                <div CLASS="col-sm-4">
-                    <div CLASS="price-item">
-                        <div CLASS="priceing-price">
-                            <h2>99$</h2>
-                            <span>per month</span>
-                        </div>
-                        <div CLASS="pricing_devider">
-                            <span></span>
-                        </div>
-
-                        <ul CLASS="pricing-features ">
-                            <li><span CLASS="ion-android-done-all"></span> <span CLASS="feature_list">10GB Storage</span></li>
-                            <li><span CLASS="ion-android-done-all"></span> <span CLASS="feature_list">10 Emails</span></li>
-                            <li><span CLASS="ion-android-done-all"></span> <span CLASS="feature_list">10 Domains</span></li>
-                            <li><span CLASS="ion-android-done-all"></span> <span CLASS="feature_list">1GB Bandwidth</span></li>
-                            <li><span CLASS="ion-android-done-all"></span> <span CLASS="feature_list">50 SubDomains</span></li>
-                            <li><span CLASS="ion-android-done-all"></span> <span CLASS="feature_list">Email Support</span></li>
-                        </ul>
-                        <div CLASS="pricing-action">
-                            <a CLASS="btn-color-background" HREF="#">Purchase</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
+                        
+                           
+                    
 	
 	
     <!--====== Testimonials ======-->
@@ -4699,41 +4299,7 @@ div#contact {
 	<!-- BRAND Section -->
         <div CLASS="brand_img">
 		<!-- Brand Image -->
-            <img SRC="https://lh3.googleusercontent.com/-yzilvJoKsQQ/XAARW36oa9I/AAAAAAAAA5s/0q45pzaTewUpa35NM-l2fgNuL13yiUvTQCLcBGAs/s1600/brand1.png" ALT=""/>
-        </div>
-        <div CLASS="brand_img">
-            <img SRC="https://lh3.googleusercontent.com/-Ln4A4wBuazo/XAARX3T57ZI/AAAAAAAAA54/778IcMpSg6wo9TH7_TLgvJaFYeXuxGdtwCLcBGAs/s1600/brand2.png" ALT=""/>
-        </div>
-        <div CLASS="brand_img">
-            <img SRC="https://lh3.googleusercontent.com/-YqIgNI9BT4Y/XAARX8chI_I/AAAAAAAAA58/A-kC2zZQOs4Z3VR34hmL7G_zIeAkcvvTwCLcBGAs/s1600/brand3.png" ALT=""/>
-        </div>
-        <div CLASS="brand_img">
-            <img SRC="https://lh3.googleusercontent.com/-ywNkhnpKWZA/XAARYGkDPfI/AAAAAAAAA6A/wILGNeH8cnMEfW7MDkWnttp-G9nb9mrKQCLcBGAs/s1600/brand4.png" ALT=""/>
-        </div>
-        <div CLASS="brand_img">
-            <img SRC="https://lh3.googleusercontent.com/-ztbh1aMsbb4/XAARYyQFbcI/AAAAAAAAA6E/3Z7diDREGPkqBx2Q1m7icLL1DiRUnGjHgCLcBGAs/s1600/brand5.png" ALT=""/>
-        </div>
-        <div CLASS="brand_img">
-            <img SRC="https://lh3.googleusercontent.com/-yzilvJoKsQQ/XAARW36oa9I/AAAAAAAAA5s/0q45pzaTewUpa35NM-l2fgNuL13yiUvTQCLcBGAs/s1600/brand1.png" ALT=""/>
-        </div>
-        <div CLASS="brand_img">
-            <img SRC="https://lh3.googleusercontent.com/-Ln4A4wBuazo/XAARX3T57ZI/AAAAAAAAA54/778IcMpSg6wo9TH7_TLgvJaFYeXuxGdtwCLcBGAs/s1600/brand2.png" ALT=""/>
-        </div>
-        <div CLASS="brand_img">
-            <img SRC="https://lh3.googleusercontent.com/-YqIgNI9BT4Y/XAARX8chI_I/AAAAAAAAA58/A-kC2zZQOs4Z3VR34hmL7G_zIeAkcvvTwCLcBGAs/s1600/brand3.png" ALT=""/>
-        </div>
-        <div CLASS="brand_img">
-            <img SRC="https://lh3.googleusercontent.com/-ywNkhnpKWZA/XAARYGkDPfI/AAAAAAAAA6A/wILGNeH8cnMEfW7MDkWnttp-G9nb9mrKQCLcBGAs/s1600/brand4.png" ALT=""/>
-        </div>
-        <div CLASS="brand_img">
-            <img SRC="https://lh3.googleusercontent.com/-ztbh1aMsbb4/XAARYyQFbcI/AAAAAAAAA6E/3Z7diDREGPkqBx2Q1m7icLL1DiRUnGjHgCLcBGAs/s1600/brand5.png" ALT=""/>
-        </div>
-    </div>
-	
-			</b:if>
-	</b:if>
-	
-    <div class='clr'/>
+          
 
     <!--====== Blog ======-->
 	<section class='blog section-padding' id='blog'>
